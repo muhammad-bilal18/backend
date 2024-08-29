@@ -1,3 +1,4 @@
+import Joi from 'joi';
 export function validateSignup(object) {
     const schema = Joi.object({
         userName: Joi.string().min(4).required(),

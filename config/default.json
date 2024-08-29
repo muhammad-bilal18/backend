@@ -1,8 +1,5 @@
 {
     "PORT": 3000,
     "db": "mongodb://localhost/ve-apis",
-    "jwtPrivateKey": "ve_privateKey",
-    "cloud_name": "dqpyagkv3",
-    "api_key": "239194716431992",
-    "api_secret": "Yh9-vT-LtSzOdM0h6vf_wj6C9k4"
+    "jwtPrivateKey": "ve_privateKey"
 }

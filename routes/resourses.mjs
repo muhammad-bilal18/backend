@@ -8,7 +8,7 @@ router.get('/', auth, async(req, res) => {
     let files = []
     files = await File.find({});
 
-    res.status(200).json({ message: 'All resources are yours', files });
+    res.status(200).json({ message: 'All resources are yours' });
 })
 
 export default router;
